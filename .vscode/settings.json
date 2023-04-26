@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 16,
+    "editor.cursorStyle": "line",
+    "workbench.editor.enablePreview": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

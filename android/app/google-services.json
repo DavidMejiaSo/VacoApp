@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "144612262372",
+    "project_id": "vacoapp-b796b",
+    "storage_bucket": "vacoapp-b796b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144612262372:android:5626f0262d8b5aef7f47f1",
+        "android_client_info": {
+          "package_name": "com.example.prueba_vaco_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144612262372-7ecmakhpvmkcp98ardeo6rlvo9dn4a5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prueba_vaco_app",
+            "certificate_hash": "9dc50fd8b3c5a5f3432084e389c73773d90337c2"
+          }
+        },
+        {
+          "client_id": "144612262372-i8l2eart98v678kg6ids1c4g6lacnq9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prueba_vaco_app",
+            "certificate_hash": "23d0894c92b365c6a5e91c37149057911996b3ae"
+          }
+        },
+        {
+          "client_id": "144612262372-tmfabi0ntg944qetdp8gs57u344ah5as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFkrRhKVn9dQsZRwHb05tQH3MnLV2gKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144612262372-tmfabi0ntg944qetdp8gs57u344ah5as.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144612262372-2e98v2qe3v2o3inq8273kjju94113kv1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pruebaVacoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

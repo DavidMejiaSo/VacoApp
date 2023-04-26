@@ -1,0 +1,131 @@
+name: prueba_vaco_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+
+dependencies:
+  animated_splash_screen: ^1.2.0
+  checkbox_grouped: ^1.8.0
+  connectivity_plus: ^2.3.0
+  crypto: ^3.0.2
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  firebase_analytics: ^9.2.0
+  firebase_auth: ^3.3.19
+  firebase_core: ^1.10.6
+  firebase_messaging: ^11.4.4
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^4.1.1
+  flutter_local_notifications: null
+  flutter_localizations:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.0
+  flutter_typeahead: ^4.0.0
+  font_awesome_flutter: ^10.1.0
+  geocoding: ^2.0.4
+  geolocator: ^8.2.1
+  google_maps_flutter: ^2.1.3
+  google_sign_in: ^5.3.3
+  http: ^0.13.0
+  intl: ^0.17.0
+  loading_indicator: ^3.0.3
+  location: ^4.4.0
+  permission_handler: ^9.2.0
+  provider: null
+  rive: ^0.8.4
+  rxdart: ^0.27.3
+  shared_preferences: ^2.0.6
+  url_launcher: ^6.1.5
+  webview_flutter_plus: null
+
+dev_dependencies:
+  flutter_launcher_icons: null
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: 'assets/icon/iconVaco.png'
+  adaptive_icon_background: 'assets/icon/iconVaco.png'
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  generate: true
+  assets:
+    - assets/logos/LogoVacoBlanco.png
+    - assets/logos/LogoVacoNegro.png
+    - assets/logos/LogoVaco.png
+    - assets/logos/icono.png
+    - assets/carga/delivery.riv
+    - assets/carga/Cancelado.png
+    - assets/carga/Confirmacion.png
+    - assets/carga/EnConfirmacion.gif
+    - assets/carga/Entregado.png
+    - assets/carga/Preparacion.png
+    - assets/carga/Recoger.png
+    - assets/backgrounds/FondoShop.png
+    - assets/backgrounds/FondoProductos.png
+    - assets/backgrounds/FondoApp.png
+    - assets/backgrounds/FondoDirecciones.png
+    - assets/backgrounds/FondoInicio.png
+    - assets/backgrounds/FondoRegistro.png
+    - assets/backgrounds/FondoRestaurantes.png
+    - assets/backgrounds/FondoTuOrden.png
+    - assets/backgrounds/FondoTexturizado.jpg
+    - assets/backgrounds/Sopresa.png
+    - assets/backgrounds/BolsaSorpresa.png
+    - assets/alertAlergyIcon/alertAlergyIcon.png
+    - assets/products/BotonCompras.png
+    - assets/products/Bolsa.png
+    - assets/botones/BotonCerrar.png
+    - assets/botones/BotonFavoritos.png
+    - assets/botones/BotonNoFavoritos.png
+    - assets/botones/BotonRegresar.png
+    - assets/botones/BotonInfo.png
+    - assets/maps/pinUsuario.png
+    - assets/maps/pinRestaurantes.png
+    - assets/maps/pinSupermercados.png
+    - assets/iconos/Facebook.png
+    - assets/iconos/Google.png
+    - assets/iconos/Instagram.png
+    - assets/bag/bannerBag.png
+    - assets/navigationBarIcons/iconoCampanaNotificacion.png
+    - assets/navigationBarIcons/iconoCampanaNotificacionActiva.png
+    - assets/navigationBarIcons/iconoFavoritos.png
+    - assets/navigationBarIcons/iconoHome.png
+    - assets/navigationBarIcons/iconoLocacion.png
+    - assets/navigationBarIcons/iconoMenu.png
+    - assets/support/supportIcon.png
+    - assets/notification/popUpNotification.png
+    - assets/navigationBarIcons/iconoCampanaActiva.png
+    - assets/navigationBarIcons/campanaNoNoti.png
+    - assets/navigationBarIcons/campanaSiNoti.png
+    - assets/industriaYComercio/industria.png
+
+
+  uses-material-design: true
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat.ttf
+    - family: Montserrat-ExtraBold
+      fonts:
+        - asset: fonts/Montserrat-ExtraBold.ttf
+    - family: Montserrat-Regular
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: Montserrat-SemiBoldItalic
+      fonts:
+        - asset: fonts/Montserrat-SemiBoldItalic.ttf
